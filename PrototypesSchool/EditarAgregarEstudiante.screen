@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="45" y="63" locked="true" measuredWidth="1366" measuredHeight="768" dimmed="true">
+    <screen xsi:type="model:Screen" href="BaseAdministrador.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Window" id="32" x="472" y="214" width="792" height="514" text="Window" locked="true" measuredWidth="792" measuredHeight="514"/>
+  <widgets xsi:type="model:Label" id="3" x="520" y="310" text="Nombre" locked="true" measuredWidth="107" measuredHeight="46">
+    <font size="28px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="4" x="520" y="372" text="Apellido" locked="true" measuredWidth="107" measuredHeight="46">
+    <font size="28px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="5" x="520" y="427" text="Cédula" locked="true" measuredWidth="90" measuredHeight="46">
+    <font size="28px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="6" x="520" y="483" text="Dirección" locked="true" measuredWidth="122" measuredHeight="46">
+    <font size="28px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="7" x="520" y="598" text="Correo" locked="true" measuredWidth="89" measuredHeight="46">
+    <font size="28px"/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="8" x="776" y="315" width="448" height="40" locked="true" measuredWidth="448" measuredHeight="40">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="9" x="776" y="372" width="448" height="40" locked="true" measuredWidth="448" measuredHeight="40">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="10" x="776" y="430" width="448" height="40" locked="true" measuredWidth="448" measuredHeight="40">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="11" x="776" y="486" width="448" height="40" locked="true" measuredWidth="448" measuredHeight="40">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="12" x="776" y="601" width="448" height="40" locked="true" measuredWidth="448" measuredHeight="40">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="13" x="1040" y="653" width="184" height="61" text="Guardar" locked="true" measuredWidth="184" measuredHeight="61" icon="save (large)" link="Estudiantes.screen">
+    <font size="32px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="14" x="520" y="542" text="Teléfono" locked="true" measuredWidth="114" measuredHeight="46">
+    <font size="28px"/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="15" x="776" y="545" width="448" height="40" locked="true" measuredWidth="448" measuredHeight="40">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

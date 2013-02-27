@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Master" id="1" x="99" y="91" locked="true" measuredWidth="1366" measuredHeight="768" dimmed="true">
+    <screen xsi:type="model:Screen" href="BaseAdministrador.screen#/"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Insert" newIndex="8">
+        <object xsi:type="model:Combo" x="837" y="505" width="440" text="2012" locked="true">
+          <font size="24px"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="8">
+        <object xsi:type="model:Button" x="1093" y="585" width="184" height="61" text="Guardar" locked="true" icon="save (large)" link="Grados.screen">
+          <font size="32px"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="8">
+        <object xsi:type="model:TextArea" x="829" y="440" width="448" height="40" locked="true">
+          <font/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="8">
+        <object xsi:type="model:Label" x="573" y="497" text="Año" locked="true">
+          <font size="28px"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="8">
+        <object xsi:type="model:Label" x="573" y="435" text="Nombre" locked="true">
+          <font size="28px"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="8">
+        <object xsi:type="model:Window" x="498" y="346" width="828" height="352" text="Window" locked="true"/>
+      </widgetChanges>
+      <widgets ref="1" y="84"/>
+      <widgets ref="8">
+        <attributes key="selection" value="7"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

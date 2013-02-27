@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="71" y="76" locked="true" measuredWidth="1366" measuredHeight="768" dimmed="true">
+    <screen xsi:type="model:Screen" href="BaseAdministrador.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="2" x="726" y="288" width="162" text="2012" locked="true" measuredWidth="162" measuredHeight="40">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="3" x="640" y="288" text="Año" locked="true" measuredWidth="48" measuredHeight="40">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="4" x="640" y="400" width="697" text="Grado,Promedio&#xD;&#xA;Once 2012, 5&#xD;&#xA;Once 2012, 5&#xD;&#xA;Once 2012, 5&#xD;&#xA;Once 2012, 5&#xD;&#xA;Once 2012, 5&#xD;&#xA;Once 2012, 5&#xD;&#xA;Once 2012, 5&#xD;&#xA;Once 2012, 5&#xD;&#xA;Once 2012, 5&#xD;&#xA;Once 2012, 5" locked="true" measuredWidth="697" measuredHeight="235" alternative="#eeeeee">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="6" x="1216" y="288" width="162" text="2012" locked="true" measuredWidth="162" measuredHeight="40">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="7" x="952" y="288" text="Cantidad de resultados" locked="true" measuredWidth="250" measuredHeight="40">
+    <font size="24px"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

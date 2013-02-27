@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="82" y="55" locked="true" measuredWidth="1366" measuredHeight="768" dimmed="true">
+    <screen xsi:type="model:Screen" href="BaseAdministrador.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Window" id="10" x="552" y="224" width="760" height="472" text="Window" locked="true" measuredWidth="760" measuredHeight="472"/>
+  <widgets xsi:type="model:Label" id="2" x="628" y="267" text="Director" locked="true" measuredWidth="105" measuredHeight="46">
+    <font size="28px"/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="3" x="816" y="270" width="440" height="40" text="Yo" locked="true" measuredWidth="440" measuredHeight="40" state="disabled">
+    <font size="28px"/>
+  </widgets>
+  <widgets xsi:type="model:VLine" id="4" x="920" y="379" height="266" locked="true" measuredWidth="6" measuredHeight="266"/>
+  <widgets xsi:type="model:Label" id="5" x="627" y="358" text="Estudiantes" locked="true" measuredWidth="145" measuredHeight="46">
+    <font size="28px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="6" x="1080" y="358" text="Materias" locked="true" measuredWidth="111" measuredHeight="46">
+    <font size="28px"/>
+  </widgets>
+  <widgets xsi:type="model:List" id="7" x="584" y="464" width="248" height="177" text="Sebastian Rincon&#xD;&#xA;Sebastian Rincon&#xD;&#xA;Sebastian Rincon&#xD;&#xA;Sebastian Rincon&#xD;&#xA;Sebastian Rincon&#xD;&#xA;Sebastian Rincon&#xD;&#xA;Sebastian Rincon&#xD;&#xA;Sebastian Rincon&#xD;&#xA;Sebastian Rincon&#xD;&#xA;Sebastian Rincon&#xD;&#xA;Sebastian Rincon&#xD;&#xA;Sebastian Rincon&#xD;&#xA;Sebastian Rincon&#xD;&#xA;Sebastian Rincon&#xD;&#xA;Sebastian Rincon" locked="true" measuredWidth="248" measuredHeight="177" verticalScrollbar="true">
+    <font/>
+    <items x="0" y="2" width="231" height="21" text="Sebastian Rincon"/>
+    <items x="0" y="23" width="231" height="21" text="Sebastian Rincon"/>
+    <items x="0" y="44" width="231" height="21" text="Sebastian Rincon"/>
+    <items x="0" y="65" width="231" height="21" text="Sebastian Rincon"/>
+    <items x="0" y="86" width="231" height="21" text="Sebastian Rincon"/>
+    <items x="0" y="107" width="231" height="21" text="Sebastian Rincon"/>
+    <items x="0" y="128" width="231" height="21" text="Sebastian Rincon"/>
+    <items x="0" y="149" width="231" height="21" text="Sebastian Rincon"/>
+    <items x="0" y="170" width="231" height="21" text="Sebastian Rincon"/>
+    <items x="0" y="191" width="231" height="21" text="Sebastian Rincon"/>
+    <items x="0" y="212" width="231" height="21" text="Sebastian Rincon"/>
+    <items x="0" y="233" width="231" height="21" text="Sebastian Rincon"/>
+    <items x="0" y="254" width="231" height="21" text="Sebastian Rincon"/>
+    <items x="0" y="275" width="231" height="21" text="Sebastian Rincon"/>
+    <items x="0" y="296" width="231" height="21" text="Sebastian Rincon"/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="11" x="1008" y="464" width="256" height="177" text="Nombre,Docente&#xD;&#xA;Educacion sexual, Yo&#xD;&#xA;Educacion sexual, Yo&#xD;&#xA;Educacion sexual, Yo&#xD;&#xA;Educacion sexual, Yo&#xD;&#xA;Educacion sexual, Yo&#xD;&#xA;Educacion sexual, Yo&#xD;&#xA;Educacion sexual, Yo&#xD;&#xA;Educacion sexual, Yo" locked="true" measuredWidth="256" measuredHeight="177" alternative="#eeeeee">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

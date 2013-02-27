@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="87" y="104" locked="true" measuredWidth="1366" measuredHeight="768" dimmed="true">
+    <screen xsi:type="model:Screen" href="BaseAdministrador.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Window" id="9" x="600" y="287" width="680" height="408" text="Window" locked="true" measuredWidth="680" measuredHeight="408"/>
+  <widgets xsi:type="model:Label" id="3" x="624" y="319" text="Director de" locked="true" measuredWidth="144" measuredHeight="46">
+    <font size="28px"/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="4" x="812" y="322" width="440" height="40" text="Once 01" locked="true" measuredWidth="440" measuredHeight="40" state="disabled">
+    <font size="28px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="5" x="848" y="377" text="Materias" locked="true" measuredWidth="111" measuredHeight="46">
+    <font size="28px"/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="7" x="659" y="429" width="555" height="185" text="Materia,Curso, Grado&#xD;&#xA;Educacion sexual, Once 01, Once 2012&#xD;&#xA;Educacion sexual, Once 01, Once 2012&#xD;&#xA;Educacion sexual, Once 01, Once 2012&#xD;&#xA;Educacion sexual, Once 01, Once 2012&#xD;&#xA;Educacion sexual, Once 01, Once 2012&#xD;&#xA;Educacion sexual, Once 01, Once 2012&#xD;&#xA;Educacion sexual, Once 01, Once 2012&#xD;&#xA;Educacion sexual, Once 01, Once 2012&#xD;&#xA;Educacion sexual, Once 01, Once 2012&#xD;&#xA;Educacion sexual, Once 01, Once 2012&#xD;&#xA;Educacion sexual, Once 01, Once 2012&#xD;&#xA;Educacion sexual, Once 01, Once 2012" locked="true" measuredWidth="555" measuredHeight="185" alternative="#eeeeee">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

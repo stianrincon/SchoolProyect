@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Master" id="1" x="88" y="88" locked="true" measuredWidth="1366" measuredHeight="768" dimmed="true">
+    <screen xsi:type="model:Screen" href="BaseAdministrador.screen#/"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Insert" newIndex="8">
+        <object xsi:type="model:Label" x="1034" y="592" text="Fax" locked="true">
+          <font size="24px"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="8">
+        <object xsi:type="model:Label" x="1034" y="553" text="Teléfono" locked="true">
+          <font size="24px"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="8">
+        <object xsi:type="model:Label" x="1034" y="514" text="Dirección" locked="true">
+          <font size="24px"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="8">
+        <object xsi:type="model:Label" x="1034" y="475" text="NIT" locked="true">
+          <font size="24px"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="8">
+        <object xsi:type="model:Label" x="1034" y="436" text="Nombre" locked="true">
+          <font size="24px"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="8">
+        <object xsi:type="model:Link" x="984" y="633" text="Eliminar" locked="true">
+          <font size="32px"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="8">
+        <object xsi:type="model:Link" x="887" y="633" text="Editar" locked="true" link="EditarAgregarSede.screen">
+          <font size="32px"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="8">
+        <object xsi:type="model:Icon" x="826" y="436" width="184" height="188" locked="true" icon="pdf (large)"/>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="8">
+        <object xsi:type="model:CoverFlow" x="608" y="409" width="752" height="297" locked="true"/>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="8">
+        <object xsi:type="model:Button" x="608" y="292" width="184" height="61" text="Nueva" locked="true" icon="add (large)" link="EditarAgregarSede.screen">
+          <font size="32px"/>
+        </object>
+      </widgetChanges>
+      <widgets ref="8">
+        <attributes key="selection" value="8"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

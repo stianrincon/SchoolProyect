@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Master" id="1" x="174" y="240" locked="true" measuredWidth="1366" measuredHeight="768" dimmed="true">
+    <screen xsi:type="model:Screen" href="BaseAdministrador.screen#/"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Insert" newIndex="8">
+        <object xsi:type="model:Table" x="586" y="384" width="752" height="323" text="Nombre,Apellido, Cédula,Dirección,Teléfono,Correo&#xA;Peter,Severin,36,Carrera 4 N 11'32,313 131 3113,sexo@caliente,[Ver] [Editar] [Eliminar]&#xA;Peter,Severin,36,Carrera 4 N 11'32,313 131 3113,sexo@caliente,[Ver] [Editar] [Eliminar]&#xA;Peter,Severin,36,Carrera 4 N 11'32,313 131 3113,sexo@caliente,[Ver] [Editar] [Eliminar]&#xA;Peter,Severin,36,Carrera 4 N 11'32,313 131 3113,sexo@caliente,[Ver] [Editar] [Eliminar]&#xA;Peter,Severin,36,Carrera 4 N 11'32,313 131 3113,sexo@caliente,[Ver] [Editar] [Eliminar]&#xA;Peter,Severin,36,Carrera 4 N 11'32,313 131 3113,sexo@caliente,[Ver] [Editar] [Eliminar]&#xA;Peter,Severin,36,Carrera 4 N 11'32,313 131 3113,sexo@caliente,[Ver] [Editar] [Eliminar]&#xA;Peter,Severin,36,Carrera 4 N 11'32,313 131 3113,sexo@caliente,[Ver] [Editar] [Eliminar]&#xA;Peter,Severin,36,Carrera 4 N 11'32,313 131 3113,sexo@caliente,[Ver] [Editar] [Eliminar]&#xA;Peter,Severin,36,Carrera 4 N 11'32,313 131 3113,sexo@caliente,[Ver] [Editar] [Eliminar]&#xA;Peter,Severin,36,Carrera 4 N 11'32,313 131 3113,sexo@caliente,[Ver] [Editar] [Eliminar]&#xA;Peter,Severin,36,Carrera 4 N 11'32,313 131 3113,sexo@caliente,[Ver] [Editar] [Eliminar]&#xA;Peter,Severin,36,Carrera 4 N 11'32,313 131 3113,sexo@caliente,[Ver] [Editar] [Eliminar]&#xA;Peter,Severin,36,Carrera 4 N 11'32,313 131 3113,sexo@caliente,[Ver] [Editar] [Eliminar]" locked="true" alternative="#eeeeee">
+          <font size="15px"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="8">
+        <object xsi:type="model:Button" x="578" y="292" width="184" height="61" text="Nuevo" locked="true" icon="add (large)" link="EditarAgregarProfesor.screen">
+          <font size="32px"/>
+        </object>
+      </widgetChanges>
+      <widgets ref="8">
+        <attributes key="selection" value="6"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Link" id="2" x="1223" y="433" text="Ver" locked="true" measuredWidth="20" measuredHeight="23" link="VerProfesor.screen">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

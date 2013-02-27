@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="89" y="85" locked="true" measuredWidth="1366" measuredHeight="768" dimmed="true">
+    <screen xsi:type="model:Screen" href="BaseAdministrador.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Window" id="2" x="618" y="338" text="Window" locked="true" measuredWidth="400" measuredHeight="300"/>
+  <widgets xsi:type="model:Button" id="3" x="704" y="432" text="Asignar estudiantes" locked="true" measuredWidth="228" measuredHeight="42" link="AsignarEstudiantes.screen">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="5" x="720" y="528" text="Asignar materias" locked="true" measuredWidth="196" measuredHeight="42" link="AsignarMaterias.screen">
+    <font size="24px"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

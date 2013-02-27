@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="103" y="84" locked="true" measuredWidth="1366" measuredHeight="768" dimmed="true">
+    <screen xsi:type="model:Screen" href="BaseAdministrador.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="2" x="99" y="77" locked="true" measuredWidth="1366" measuredHeight="768" dimmed="true">
+    <screen xsi:type="model:Screen" href="BaseAdministrador.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Window" id="10" x="552" y="253" width="672" height="468" text="Window" locked="true" measuredWidth="672" measuredHeight="468"/>
+  <widgets xsi:type="model:Label" id="3" x="599" y="289" text="Grado" locked="true" measuredWidth="92" measuredHeight="53">
+    <font size="32px"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="4" x="826" y="296" width="368" text="Once 2012" locked="true" measuredWidth="368" measuredHeight="40">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="5" x="599" y="376" text="Materia" locked="true" measuredWidth="113" measuredHeight="53">
+    <font size="32px"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="6" x="826" y="383" width="368" text="Educacion Sexual" locked="true" measuredWidth="368" measuredHeight="40">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="7" x="599" y="499" text="Descripcion" locked="true" measuredWidth="171" measuredHeight="53">
+    <font size="32px"/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="8" x="826" y="508" width="369" height="114" text="Sumar dos restas" locked="true" measuredWidth="369" measuredHeight="114">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="9" x="1011" y="624" width="184" height="61" text="Guardar" locked="true" measuredWidth="184" measuredHeight="61" icon="save (large)" link="Logros.screen">
+    <font size="32px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="11" x="599" y="436" text="Periodo" locked="true" measuredWidth="116" measuredHeight="53">
+    <font size="32px"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="12" x="826" y="443" width="368" text="1" locked="true" measuredWidth="368" measuredHeight="40">
+    <font size="24px"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

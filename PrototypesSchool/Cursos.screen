@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Master" id="1" x="98" y="116" locked="true" measuredWidth="1366" measuredHeight="768" dimmed="true">
+    <screen xsi:type="model:Screen" href="BaseAdministrador.screen#/"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Delete" ref="10"/>
+      <widgets ref="8">
+        <attributes key="selection" value="2"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Button" id="2" x="579" y="322" width="184" height="61" text="Nuevo" locked="true" measuredWidth="184" measuredHeight="61" icon="add (large)" link="EditarAgregarCurso.screen">
+    <font size="32px"/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="3" x="579" y="400" width="672" height="336" text="Nombre,Grado,Director,Opciones&#xA;Once 01,Once 2012,Yo,[Asignar] [Ver] [Editar] [Eliminar]&#xA;Once 01,Once 2012,Yo,[Asignar] [Ver] [Editar] [Eliminar]&#xA;Once 01,Once 2012,Yo,[Asignar] [Ver] [Editar] [Eliminar]&#xA;Once 01,Once 2012,Yo,[Asignar] [Ver] [Editar] [Eliminar]&#xA;Once 01,Once 2012,Yo,[Asignar] [Ver] [Editar] [Eliminar]&#xA;Once 01,Once 2012,Yo,[Asignar] [Ver] [Editar] [Eliminar]&#xA;Once 01,Once 2012,Yo,[Asignar] [Ver] [Editar] [Eliminar]&#xA;Once 01,Once 2012,Yo,[Asignar] [Ver] [Editar] [Eliminar]&#xA;Once 01,Once 2012,Yo,[Asignar] [Ver] [Editar] [Eliminar]&#xA;Once 01,Once 2012,Yo,[Asignar] [Ver] [Editar] [Eliminar]&#xA;Once 01,Once 2012,Yo,[Asignar] [Ver] [Editar] [Eliminar]&#xA;Once 01,Once 2012,Yo,[Asignar] [Ver] [Editar] [Eliminar]" locked="true" measuredWidth="672" measuredHeight="336" verticalScrollbar="true" rowHeight="29" horizontalLines="true" alternative="#eeeeee">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="4" x="791" y="326" text="Año" locked="true" measuredWidth="63" measuredHeight="53">
+    <font size="32px"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="5" x="871" y="333" width="114" text="2012" locked="true" measuredWidth="114" measuredHeight="40">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="6" x="1024" y="326" text="Grado" locked="true" measuredWidth="92" measuredHeight="53">
+    <font size="32px"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="7" x="1123" y="333" width="94" text="Once" locked="true" measuredWidth="94" measuredHeight="40">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="8" x="1102" y="280" text="Ver" locked="true" measuredWidth="20" measuredHeight="23" link="VerCurso.screen">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="9" x="1197" y="280" text="Asignar" locked="true" measuredWidth="43" measuredHeight="23" link="Asignar.screen">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

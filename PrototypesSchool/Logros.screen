@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="99" y="77" locked="true" measuredWidth="1366" measuredHeight="768" dimmed="true">
+    <screen xsi:type="model:Screen" href="BaseAdministrador.screen#/"/>
+    <overrides>
+      <widgets ref="8">
+        <attributes key="selection" value="4"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Button" id="2" x="584" y="289" width="184" height="61" text="Nuevo" locked="true" measuredWidth="184" measuredHeight="61" icon="add (large)" link="EditarAgregarLogro.screen">
+    <font size="32px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="3" x="796" y="293" text="Grado" locked="true" measuredWidth="92" measuredHeight="53">
+    <font size="32px"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="4" x="893" y="300" width="114" text="Once" locked="true" measuredWidth="114" measuredHeight="40">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="5" x="1029" y="293" text="Materia" locked="true" measuredWidth="113" measuredHeight="53">
+    <font size="32px"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="6" x="1152" y="300" width="216" text="Educacion Sexual" locked="true" measuredWidth="216" measuredHeight="40">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="7" x="600" y="414" width="744" height="275" text="Logro,Materia, Periodo, Grado, Opciones&#xA;Sumar dos restas, Educacion sexual, 1, Once 2012, [Editar] [Eliminar]&#xA;Sumar dos restas, Educacion sexual, 1, Once 2012, [Editar] [Eliminar]&#xA;Sumar dos restas, Educacion sexual, 1, Once 2012, [Editar] [Eliminar]&#xA;Sumar dos restas, Educacion sexual, 1, Once 2012, [Editar] [Eliminar]&#xA;Sumar dos restas, Educacion sexual, 1, Once 2012, [Editar] [Eliminar]&#xA;Sumar dos restas, Educacion sexual, 1, Once 2012, [Editar] [Eliminar]&#xA;Sumar dos restas, Educacion sexual, 1, Once 2012, [Editar] [Eliminar]&#xA;Sumar dos restas, Educacion sexual, 1, Once 2012, [Editar] [Eliminar]&#xA;Sumar dos restas, Educacion sexual, 1, Once 2012, [Editar] [Eliminar]&#xA;Sumar dos restas, Educacion sexual, 1, Once 2012, [Editar] [Eliminar]" locked="true" measuredWidth="744" measuredHeight="275" selection="" alternative="#eeeeee">
+    <font size="20px"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

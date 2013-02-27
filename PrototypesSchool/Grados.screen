@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Master" id="1" x="82" y="100" measuredWidth="1366" measuredHeight="768" dimmed="true">
+    <screen xsi:type="model:Screen" href="BaseAdministrador.screen#/"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Insert" newIndex="8">
+        <object xsi:type="model:Link" x="1135" y="258" text="Ver" link="VerGrado.screen">
+          <font/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="8">
+        <object xsi:type="model:Combo" x="974" y="303" width="288" text="2012" locked="true">
+          <font size="24px"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="8">
+        <object xsi:type="model:Label" x="894" y="296" text="Año" locked="true">
+          <font size="32px"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="8">
+        <object xsi:type="model:Table" x="590" y="370" width="672" height="336" text="Nombre,Año,Opciones&#xA;Once,2012, [Ver] [Editar] [Eliminar]&#xA;Once,2012, [Ver] [Editar] [Eliminar]&#xA;Once,2012, [Ver] [Editar] [Eliminar]&#xA;Once,2012, [Ver] [Editar] [Eliminar]&#xA;Once,2012, [Ver] [Editar] [Eliminar]&#xA;Once,2012, [Ver] [Editar] [Eliminar]&#xA;Once,2012, [Ver] [Editar] [Eliminar]&#xA;Once,2012, [Ver] [Editar] [Eliminar]&#xA;Once,2012, [Ver] [Editar] [Eliminar]&#xA;Once,2012, [Ver] [Editar] [Eliminar]&#xA;Once,2012, [Ver] [Editar] [Eliminar]&#xA;Once,2012, [Ver] [Editar] [Eliminar]" locked="true" verticalScrollbar="true" rowHeight="29" horizontalLines="true" alternative="#eeeeee">
+          <font size="19px"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="8">
+        <object xsi:type="model:Button" x="590" y="292" width="184" height="61" text="Nuevo" locked="true" icon="add (large)" link="EditarAgregarGrado.screen">
+          <font size="32px"/>
+        </object>
+      </widgetChanges>
+      <widgets ref="8">
+        <attributes key="selection" value="7"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

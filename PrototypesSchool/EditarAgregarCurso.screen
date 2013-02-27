@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Master" id="1" x="95" y="82" measuredWidth="1366" measuredHeight="768" dimmed="true">
+    <screen xsi:type="model:Screen" href="BaseAdministrador.screen#/"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Insert" newIndex="8">
+        <object xsi:type="model:Combo" x="837" y="548" width="440" text="Once" locked="true">
+          <font size="24px"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="8">
+        <object xsi:type="model:Label" x="573" y="545" text="Director" locked="true">
+          <font size="28px"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="8">
+        <object xsi:type="model:Combo" x="837" y="478" width="440" text="Once 2012" locked="true">
+          <font size="24px"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="8">
+        <object xsi:type="model:Label" x="573" y="470" text="Grado" locked="true">
+          <font size="28px"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="8">
+        <object xsi:type="model:Button" x="1093" y="654" width="184" height="61" text="Guardar" locked="true" icon="save (large)" link="Cursos.screen">
+          <font size="32px"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="8">
+        <object xsi:type="model:TextArea" x="837" y="415" width="440" height="40" locked="true">
+          <font/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="8">
+        <object xsi:type="model:Label" x="573" y="410" text="Nombre" locked="true">
+          <font size="28px"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="8">
+        <object xsi:type="model:Window" x="530" y="262" width="792" height="472" text="Window" locked="true"/>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="8">
+        <object xsi:type="model:Combo" x="837" y="595" width="440" text="Yo" locked="true">
+          <font size="24px"/>
+        </object>
+      </widgetChanges>
+      <widgets ref="8">
+        <attributes key="selection" value="2"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

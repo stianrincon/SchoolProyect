@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" x="80" y="80" width="1366" height="768" text="Browser&#xA;http://..." locked="true" measuredWidth="1366" measuredHeight="768"/>
+  <widgets xsi:type="model:Label" id="4" x="427" y="239" text="Colegio huellas genitales" locked="true" measuredWidth="662" measuredHeight="89">
+    <font size="60px"/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="8" x="610" y="410" width="281" height="31" locked="true" measuredWidth="281" measuredHeight="31">
+    <font size="32px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="10" x="776" y="528" width="125" height="59" text="Ingresar" locked="true" measuredWidth="125" measuredHeight="59" link="BienvenidaAdministrador.screen">
+    <font size="32px"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="12" x="427" y="363" width="662" locked="true" measuredWidth="662" measuredHeight="6"/>
+  <widgets xsi:type="model:Icon" id="14" x="857" y="410" locked="true" measuredWidth="32" measuredHeight="32" icon="user (large)"/>
+  <widgets xsi:type="model:HLine" id="16" x="427" y="633" width="662" locked="true" measuredWidth="662" measuredHeight="6"/>
+  <widgets xsi:type="model:Label" id="17" x="640" y="673" text="Desarrollado por:" locked="true" measuredWidth="218" measuredHeight="46">
+    <font size="28px"/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="18" x="640" y="703" text="Nuestra empresa" locked="true" measuredWidth="214" measuredHeight="46">
+    <font size="28px"/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="19" x="610" y="538" text="Recuerdame" locked="true" measuredWidth="129" measuredHeight="36">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="23" x="610" y="466" locked="true" measuredWidth="281" measuredHeight="31">
+    <widgets xsi:type="model:TextArea" id="22" width="281" height="31" measuredWidth="281" measuredHeight="31">
+      <font size="32px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="21" x="858" y="466" width="32" height="32" locked="true" measuredWidth="32" measuredHeight="32" icon="unsecure (xlarge)"/>
+  <widgets xsi:type="model:Link" id="24" x="1040" y="562" text="Ingresar Profesor" measuredWidth="92" measuredHeight="23" link="BienvenidaProfesor.screen">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

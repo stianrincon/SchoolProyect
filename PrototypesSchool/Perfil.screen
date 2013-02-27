@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" x="80" y="80" width="1366" height="768" text="Browser&#xA;http://..." locked="true" measuredWidth="1366" measuredHeight="768"/>
+  <widgets xsi:type="model:Label" id="2" x="180" y="138" text="Colegio huellas genitales" locked="true" measuredWidth="701" measuredHeight="89" link="BienvenidaAdministrador.screen">
+    <font size="60px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="3" x="1232" y="155" text="Usuario" locked="true" measuredWidth="128" measuredHeight="55">
+    <font size="32px"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="4" x="180" y="755" width="1180" locked="true" measuredWidth="1180" measuredHeight="6"/>
+  <widgets xsi:type="model:Label" id="5" x="670" y="760" text="Desarrollado por:" locked="true" measuredWidth="218" measuredHeight="46">
+    <font size="28px"/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="6" x="671" y="784" text="Nuestra empresa" locked="true" measuredWidth="214" measuredHeight="46">
+    <font size="28px"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="7" x="180" y="226" width="1180" locked="true" measuredWidth="1180" measuredHeight="6"/>
+  <widgets xsi:type="model:Accordion" id="8" x="220" y="292" width="244" height="414" text="Perfil&#xA;Logros&#xA;Informes&#xA;Calificaciones" locked="true" measuredWidth="244" measuredHeight="414" selection="1">
+    <items link="Materias.screen" x="0" y="2" width="244" height="25" text="Perfil"/>
+    <items link="Logros.screen" x="0" y="27" width="244" height="25" text="Logros"/>
+    <items link="Informes.screen" x="0" y="364" width="244" height="25" text="Informes"/>
+    <items link="Calificacion.screen" x="0" y="389" width="244" height="25" text="Calificaciones"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="9" x="626" y="322" text="Director" locked="true" measuredWidth="76" measuredHeight="36">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="10" x="736" y="322" width="288" text="Once 01" locked="true" measuredWidth="288" measuredHeight="36">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="11" x="904" y="440" text="Materias" locked="true" measuredWidth="96" measuredHeight="40">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="12" x="624" y="498" width="641" height="208" text="Nombre,Curso&#xD;&#xA;Educacion sexual, Once 01&#xD;&#xA;Educacion sexual, Once 01&#xD;&#xA;Educacion sexual, Once 01&#xD;&#xA;Educacion sexual, Once 01&#xD;&#xA;Educacion sexual, Once 01&#xD;&#xA;Educacion sexual, Once 01&#xD;&#xA;&#xD;&#xA;" locked="true" measuredWidth="641" measuredHeight="208" alternative="#eeeeee">
+    <font size="20px"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

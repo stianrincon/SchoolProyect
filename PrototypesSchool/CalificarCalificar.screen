@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="101" y="99" locked="true" measuredWidth="1366" measuredHeight="768" dimmed="true">
+    <screen xsi:type="model:Screen" href="BaseAdministrador.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Window" id="24" x="527" y="296" width="690" height="479" text="Window" locked="true" measuredWidth="690" measuredHeight="479"/>
+  <widgets xsi:type="model:Label" id="2" x="816" y="311" text="Curso Once 01" locked="true" measuredWidth="275" measuredHeight="62">
+    <font size="40px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="3" x="1056" y="372" text="Docente:  Yo" locked="true" measuredWidth="115" measuredHeight="36">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="4" x="691" y="372" text="Materia: Educacion sexual" locked="true" measuredWidth="228" measuredHeight="36">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="21" x="1057" y="723" text="Guardar" locked="true" measuredWidth="119" measuredHeight="48" link="Calificacion.screen">
+    <font size="28px"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="22" x="905" y="416" text="Sebastian Rincon" locked="true" measuredWidth="175" measuredHeight="36">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="23" x="768" y="416" text="Estudiante" locked="true" measuredWidth="96" measuredHeight="36">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="25" x="592" y="460" width="584" height="260" locked="true" measuredWidth="584" measuredHeight="260" verticalScrollbar="true"/>
+  <widgets xsi:type="model:Label" id="5" x="654" y="465" text="Estudiante" locked="true" measuredWidth="96" measuredHeight="36">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="6" x="874" y="465" text="Fallas" locked="true" measuredWidth="53" measuredHeight="36">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="7" x="1098" y="465" text="Nota" locked="true" measuredWidth="49" measuredHeight="36">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:VLine" id="8" x="808" y="474" height="232" locked="true" measuredWidth="6" measuredHeight="232"/>
+  <widgets xsi:type="model:VLine" id="9" x="1002" y="474" height="232" locked="true" measuredWidth="6" measuredHeight="232"/>
+  <widgets xsi:type="model:Label" id="11" x="610" y="522" text="Sebastian Rincon" locked="true" measuredWidth="154" measuredHeight="36">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="13" x="870" y="522" width="57" text="3" locked="true" measuredWidth="57" measuredHeight="36" textAlignment="Center">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="14" x="1084" y="522" width="57" text="4" locked="true" measuredWidth="57" measuredHeight="36" textAlignment="Center">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="15" x="610" y="581" text="Sebastian Rincon" locked="true" measuredWidth="154" measuredHeight="36">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="16" x="870" y="581" width="57" text="3" locked="true" measuredWidth="57" measuredHeight="36" textAlignment="Center">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="17" x="1084" y="581" width="57" text="4" locked="true" measuredWidth="57" measuredHeight="36" textAlignment="Center">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="18" x="610" y="643" text="Sebastian Rincon" locked="true" measuredWidth="154" measuredHeight="36">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="19" x="870" y="643" width="57" text="3" locked="true" measuredWidth="57" measuredHeight="36" textAlignment="Center">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="20" x="1084" y="643" width="57" text="4" locked="true" measuredWidth="57" measuredHeight="36" textAlignment="Center">
+    <font size="20px"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

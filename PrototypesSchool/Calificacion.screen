@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="88" y="86" locked="true" measuredWidth="1366" measuredHeight="768" dimmed="true">
+    <screen xsi:type="model:Screen" href="BaseAdministrador.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="2" x="572" y="376" width="774" height="337" text="Periodo,Grado,Curso,Materia,Docente,Opciones&#xD;&#xA;1,Once 2012,Once 01,Educacion sexual,Yo,[Calificar]&#xD;&#xA;1,Once 2012,Once 01,Educacion sexual,Yo,[Calificar]&#xD;&#xA;1,Once 2012,Once 01,Educacion sexual,Yo,[Calificar]&#xD;&#xA;1,Once 2012,Once 01,Educacion sexual,Yo,[Calificar]&#xD;&#xA;1,Once 2012,Once 01,Educacion sexual,Yo,[Calificar]&#xD;&#xA;1,Once 2012,Once 01,Educacion sexual,Yo,[Calificar]&#xD;&#xA;1,Once 2012,Once 01,Educacion sexual,Yo,[Calificar]&#xD;&#xA;1,Once 2012,Once 01,Educacion sexual,Yo,[Calificar]&#xD;&#xA;1,Once 2012,Once 01,Educacion sexual,Yo,[Calificar]&#xD;&#xA;1,Once 2012,Once 01,Educacion sexual,Yo,[Calificar]&#xD;&#xA;1,Once 2012,Once 01,Educacion sexual,Yo,[Calificar]&#xD;&#xA;1,Once 2012,Once 01,Educacion sexual,Yo,[Calificar]" locked="true" measuredWidth="774" measuredHeight="337" alternative="#eeeeee">
+    <font size="16px"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="3" x="651" y="304" text="1" locked="true" measuredWidth="37" measuredHeight="36">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="4" x="572" y="304" text="Periodo" locked="true" measuredWidth="74" measuredHeight="36">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="5" x="789" y="304" text="Once 2012" locked="true" measuredWidth="120" measuredHeight="36">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="6" x="724" y="304" text="Grado" locked="true" measuredWidth="60" measuredHeight="36">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="7" x="1011" y="304" text="Once 01" locked="true" measuredWidth="98" measuredHeight="36">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="8" x="946" y="304" text="Curso" locked="true" measuredWidth="55" measuredHeight="36">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="9" x="1243" y="304" text="Educacion sexual" locked="true" measuredWidth="173" measuredHeight="36">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="10" x="1152" y="304" text="Materia" locked="true" measuredWidth="72" measuredHeight="36">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="11" x="1180" y="273" text="Calificar" locked="true" measuredWidth="46" measuredHeight="23" link="CalificarCalificar.screen">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

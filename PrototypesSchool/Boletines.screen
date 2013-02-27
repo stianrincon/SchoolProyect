@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="103" y="85" locked="true" measuredWidth="1366" measuredHeight="768" dimmed="true">
+    <screen xsi:type="model:Screen" href="BaseAdministrador.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="2" x="744" y="297" text="2012" locked="true" measuredWidth="70" measuredHeight="36">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="3" x="688" y="297" text="Año" locked="true" measuredWidth="41" measuredHeight="36">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="4" x="920" y="297" text="Once 2012" locked="true" measuredWidth="120" measuredHeight="36">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="5" x="864" y="297" text="Grado" locked="true" measuredWidth="60" measuredHeight="36">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="6" x="1184" y="297" text="Once 01" locked="true" measuredWidth="98" measuredHeight="36">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="7" x="1128" y="297" text="Curso" locked="true" measuredWidth="55" measuredHeight="36">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="8" x="1103" y="344" text="Sebastian" locked="true" measuredWidth="110" measuredHeight="36">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="9" x="1000" y="344" text="Estudiante" locked="true" measuredWidth="96" measuredHeight="36">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="10" x="576" y="391" width="789" height="297" text="Grado, Curso, Periodo, Estudiante, Opcion&#xD;&#xA;One 2012, Once 01, 01,Sebastian, [Generar informe]&#xD;&#xA;One 2012, Once 01, 01,Sebastian, [Generar informe]&#xD;&#xA;One 2012, Once 01, 01,Sebastian, [Generar informe]&#xD;&#xA;One 2012, Once 01, 01,Sebastian, [Generar informe]&#xD;&#xA;One 2012, Once 01, 01,Sebastian, [Generar informe]&#xD;&#xA;One 2012, Once 01, 01,Sebastian, [Generar informe]&#xD;&#xA;One 2012, Once 01, 01,Sebastian, [Generar informe]&#xD;&#xA;One 2012, Once 01, 01,Sebastian, [Generar informe]&#xD;&#xA;One 2012, Once 01, 01,Sebastian, [Generar informe]&#xD;&#xA;One 2012, Once 01, 01,Sebastian, [Generar informe]&#xD;&#xA;One 2012, Once 01, 01,Sebastian, [Generar informe]&#xD;&#xA;One 2012, Once 01, 01,Sebastian, [Generar informe]" locked="true" measuredWidth="789" measuredHeight="297" alternative="#eeeeee">
+    <font size="19px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="11" x="1032" y="696" width="333" text="Generar todos lo Informes" locked="true" measuredWidth="333" measuredHeight="42">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="12" x="841" y="344" text="1" locked="true" measuredWidth="37" measuredHeight="36">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="13" x="752" y="344" text="Periodo" locked="true" measuredWidth="74" measuredHeight="36">
+    <font size="20px"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

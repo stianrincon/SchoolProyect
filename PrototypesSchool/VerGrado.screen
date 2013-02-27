@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Master" id="2" x="172" y="140" locked="true" measuredWidth="1366" measuredHeight="768" dimmed="true">
+    <screen xsi:type="model:Screen" href="Grados.screen#/"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Insert" newIndex="1">
+        <object xsi:type="model:List" x="690" y="282" width="288" height="320" text="Once 01&#xD;&#xA;Once 01&#xD;&#xA;Once 01&#xD;&#xA;Once 01&#xD;&#xA;Once 01&#xD;&#xA;Once 01&#xD;&#xA;Once 01&#xD;&#xA;Once 01&#xD;&#xA;Once 01&#xD;&#xA;Once 01" locked="true" verticalScrollbar="true">
+          <font size="20px"/>
+          <items link="VerCurso.screen" text="Once 01"/>
+          <items link="VerCurso.screen" text="Once 01"/>
+          <items text="Once 01"/>
+          <items text="Once 01"/>
+          <items text="Once 01"/>
+          <items text="Once 01"/>
+          <items text="Once 01"/>
+          <items text="Once 01"/>
+          <items text="Once 01"/>
+          <items text="Once 01"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="1">
+        <object xsi:type="model:Window" x="562" y="235" width="512" height="422" text="Window" locked="true"/>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="1">
+        <object xsi:type="model:Master" x="-2" y="35" locked="true" dimmed="true">
+          <screen xsi:type="model:Screen" href="BaseAdministrador.screen#/"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Delete" ref="1"/>
+    </overrides>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="99" y="90" locked="true" measuredWidth="1366" measuredHeight="768" dimmed="true">
+    <screen xsi:type="model:Screen" href="BaseAdministrador.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Window" id="4" x="552" y="264" width="760" height="472" text="Window" locked="true" measuredWidth="760" measuredHeight="472"/>
+  <widgets xsi:type="model:Label" id="7" x="864" y="312" text="Materias" locked="true" measuredWidth="111" measuredHeight="46">
+    <font size="28px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="12" x="1105" y="655" width="184" height="61" text="Guardar" locked="true" measuredWidth="184" measuredHeight="61" icon="save (large)" link="Cursos.screen">
+    <font size="32px"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="15" x="599" y="388" width="690" height="229" locked="true" measuredWidth="690" measuredHeight="229" verticalScrollbar="true"/>
+  <widgets xsi:type="model:Label" id="17" x="678" y="395" text="Materia" locked="true" measuredWidth="86" measuredHeight="40">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="18" x="888" y="395" text="Intensidad Horaria" locked="true" measuredWidth="200" measuredHeight="40">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:VLine" id="20" x="800" y="406" height="193" locked="true" measuredWidth="6" measuredHeight="193"/>
+  <widgets xsi:type="model:VLine" id="21" x="1144" y="406" height="193" locked="true" measuredWidth="6" measuredHeight="193"/>
+  <widgets xsi:type="model:TextField" id="23" x="822" y="434" width="305" text="10" locked="true" measuredWidth="305" measuredHeight="36">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="25" x="1171" y="434" width="68" text="Yo" locked="true" measuredWidth="68" measuredHeight="36">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="33" x="616" y="434" text="Educacion Sexual" locked="true" measuredWidth="155" measuredHeight="36">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="34" x="616" y="491" text="Educacion Sexual" locked="true" measuredWidth="155" measuredHeight="36">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="35" x="616" y="544" text="Educacion Sexual" locked="true" measuredWidth="155" measuredHeight="36">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="36" x="822" y="491" width="305" text="10" locked="true" measuredWidth="305" measuredHeight="36">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="37" x="822" y="544" width="305" text="10" locked="true" measuredWidth="305" measuredHeight="36">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="38" x="1171" y="395" text="Profesor" locked="true" measuredWidth="93" measuredHeight="40">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="39" x="1171" y="491" width="68" text="Yo" locked="true" measuredWidth="68" measuredHeight="36">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="40" x="1171" y="544" width="68" text="Yo" locked="true" measuredWidth="68" measuredHeight="36">
+    <font size="20px"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

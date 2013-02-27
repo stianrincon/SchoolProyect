@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Master" id="1" x="96" y="80" measuredWidth="1366" measuredHeight="768" dimmed="true">
+    <screen xsi:type="model:Screen" href="BaseAdministrador.screen#/"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Insert" newIndex="8">
+        <object xsi:type="model:Table" x="590" y="392" width="538" height="320" text="Nombre, Grado,Opciones&#xA;Educacion sexual,Once 2012,[Editar] [Eliminar]&#xA;Educacion sexual,Once 2012,[Editar] [Eliminar]&#xA;Educacion sexual,Once 2012,[Editar] [Eliminar]&#xA;Educacion sexual,Once 2012,[Editar] [Eliminar]&#xA;Educacion sexual,Once 2012,[Editar] [Eliminar]&#xA;Educacion sexual,Once 2012,[Editar] [Eliminar]&#xA;Educacion sexual,Once 2012,[Editar] [Eliminar]&#xA;Educacion sexual,Once 2012,[Editar] [Eliminar]" locked="true" alternative="#eeeeee">
+          <font size="19px"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="8">
+        <object xsi:type="model:Button" x="590" y="292" width="184" height="61" text="Nuevo" locked="true" icon="add (large)" link="EditarAgregarMateria.screen">
+          <font size="32px"/>
+        </object>
+      </widgetChanges>
+      <widgets ref="8">
+        <attributes key="selection" value="3"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

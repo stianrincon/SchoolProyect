@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="55" y="68" locked="true" measuredWidth="1366" measuredHeight="768" dimmed="true">
+    <screen xsi:type="model:Screen" href="BaseAdministrador.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Window" id="5" x="504" y="232" width="808" height="496" text="Window" locked="true" measuredWidth="808" measuredHeight="496"/>
+  <widgets xsi:type="model:Button" id="2" x="1032" y="633" width="184" height="61" text="Guardar" locked="true" measuredWidth="184" measuredHeight="61" icon="save (large)" link="Cursos.screen">
+    <font size="32px"/>
+  </widgets>
+  <widgets xsi:type="model:List" id="3" x="664" y="293" width="552" text="[x] Andres&#xA;[ ] Jose&#xA;[x] Sebastian&#xA;[ ] Jorge&#xA;[x] Alexander&#xA;[ ] perito" locked="true" measuredWidth="552" measuredHeight="316" verticalScrollbar="true" alpha="0">
+    <font size="28px"/>
+    <items x="0" y="2" width="535" height="52" text="[x] Andres"/>
+    <items x="0" y="54" width="535" height="52" text="[ ] Jose"/>
+    <items x="0" y="106" width="535" height="52" text="[x] Sebastian"/>
+    <items x="0" y="158" width="535" height="52" text="[ ] Jorge"/>
+    <items x="0" y="210" width="535" height="52" text="[x] Alexander"/>
+    <items x="0" y="262" width="535" height="52" text="[ ] perito"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
