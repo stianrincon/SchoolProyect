@@ -1,5 +1,5 @@
 # Django settings for CodeSchool project.
-# -*- coding:utf-8 -*-
+#encoding:utf-8
 import os
 RUTA_PROYECTO = os.path.dirname(os.path.realpath(__file__))
 
