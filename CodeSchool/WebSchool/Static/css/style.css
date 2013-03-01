@@ -3,3 +3,9 @@ h1{
 	text-align:center;
 	margin-top:7%;
 }
+
+hr{
+	width: 60%;
+	height: 0.5%;
+	background-color: #3B0B0B;
+}
