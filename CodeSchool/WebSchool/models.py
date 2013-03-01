@@ -1,4 +1,5 @@
 from django.db import models
+#modelos
 
 class School(models.Model):
     school_id = models.AutoField(primary_key = True)
