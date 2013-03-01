@@ -9,3 +9,22 @@ hr{
 	height: 0.5%;
 	background-color: #3B0B0B;
 }
+
+#formLogin{
+	margin-left:38%;
+	margin-top:2%;
+	margin-bottom:2%;
+}
+
+.userName{
+	width: 35%;
+	height: 7%;
+	border : 2px solid #000;
+}
+
+.userPassword{
+	margin-top:2%;
+	width: 35%;
+	height: 7%;
+	border : 2px solid #000;
+}
