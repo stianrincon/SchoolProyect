@@ -9,6 +9,15 @@ class School(models.Model):
     
     class Meta:
         db_table = "SCHOOL"
+        
+class Scol(models.Model):
+    school_id = models.AutoField(primary_key = True)
+    school_name =  models.CharField(max_length = 100, null = False)
+    school_address = models.CharField(max_length = 50, null = False)
+    school_phone = models.CharField(max_length = 10, null = False)
+    
+    class Meta:
+        db_table = "SCHOL"
     
 class Grade(models.Model):
     grade_id = models.AutoField(primary_key = True)
