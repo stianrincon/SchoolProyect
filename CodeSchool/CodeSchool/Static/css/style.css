@@ -17,7 +17,7 @@ hr{
 }
 
 .userName{
-	width: 35%;
+	width: 40%;
 	height: 7%;
 	font-size: 200%;
 	border : 2px solid #000;
@@ -28,11 +28,30 @@ hr{
 
 .userPassword{
 	margin-top:2%;
-	width: 35%;
+	width: 40%;
 	height: 7%;
 	border : 2px solid #000;
 	font-size: 200%;
 	background: url(/media/user.png) no-repeat right;
 	padding-left:2%;
 	padding-right:45px;
+}
+
+.loginRemember{
+	margin-top: 5%;
+	font-size: 200%;
+}
+
+.loginButton{
+	width: 15%;
+	height: 7%;
+	font-size: 170%;
+	margin-left: 6.3%;
+	border : 2px solid #000;
+	background-color: #FFFFFF;
+}
+
+.loginButton:hover{
+	background-color: #000;
+	color: #FFFFFF;
 }
