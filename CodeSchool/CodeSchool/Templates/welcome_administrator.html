@@ -7,13 +7,12 @@
 		</title>
 		</head>
 	<body>
-		<h1 class="loginTitle">
+		<h1 class="loggedTitle">
 			Colegio Huellitas Genitales
 		</h1>	
-		<hr class="loginHr">
+		<hr class="loggedHr">
 		<div id="formLogin">
 			<form method="post">
-				{% csrf_token %}
 				<input name="userName" type="text" value="Usuario" class="userName" 
 				onclick, onfocus="this.value = ''; this.className='userNameOnClick'"/>
 				<br>
@@ -25,7 +24,7 @@
 				<input type="submit" value="Ingresar" class="loginButton"/>
 			</form>
 		</div>
-		<hr class="loginHr">
+		<hr class="loggedHr">
 		<footer>
 			<p>Desarrollado por: <a href="www." target="_blank">Nuestra empresa</a> &copy; 2013</p>
 		<footer>

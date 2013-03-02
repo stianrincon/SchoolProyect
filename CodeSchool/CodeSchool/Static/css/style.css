@@ -1,11 +1,22 @@
-h1{
+.loginTitle{
 	font-size:400%;
 	text-align:center;
 	margin-top:7%;
 }
 
-hr{
+.loggedTitle{
+	font-size:400%;
+	margin-left:5%;
+}
+
+.loginHr{
 	width: 60%;
+	height: 0.5%;
+	background-color: #000;
+}
+
+.loggedHr{
+	width: 90%;
 	height: 0.5%;
 	background-color: #000;
 }
