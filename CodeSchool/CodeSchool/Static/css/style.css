@@ -87,3 +87,8 @@ footer{
 	text-align:center;
 	margin-top: 3%;
 }
+
+a{
+	color: #000;
+	font-weight:bold;
+}
