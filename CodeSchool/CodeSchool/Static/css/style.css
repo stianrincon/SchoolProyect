@@ -7,7 +7,7 @@ h1{
 hr{
 	width: 60%;
 	height: 0.5%;
-	background-color: #3B0B0B;
+	background-color: #000;
 }
 
 #formLogin{
@@ -24,6 +24,18 @@ hr{
 	background: url(/media/user.png) no-repeat right;
 	padding-left:2%;
 	padding-right:45px;
+	color: #BDBDBD;
+}
+
+.userNameOnClick{
+	width: 40%;
+	height: 7%;
+	font-size: 200%;
+	border : 2px solid #000;
+	background: url(/media/user.png) no-repeat right;
+	padding-left:2%;
+	padding-right:45px;
+	color: #000;
 }
 
 .userPassword{
@@ -35,6 +47,19 @@ hr{
 	background: url(/media/user.png) no-repeat right;
 	padding-left:2%;
 	padding-right:45px;
+	color: #BDBDBD;
+}
+
+.userPasswordOnClick{
+	margin-top:2%;
+	width: 40%;
+	height: 7%;
+	border : 2px solid #000;
+	font-size: 200%;
+	background: url(/media/user.png) no-repeat right;
+	padding-left:2%;
+	padding-right:45px;
+	color: #000;
 }
 
 .loginRemember{

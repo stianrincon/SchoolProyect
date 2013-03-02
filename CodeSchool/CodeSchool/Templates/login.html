@@ -13,9 +13,11 @@
 		<hr>
 		<div id="formLogin">
 			<form method="post">
-				<input name="userName" type="text" class="userName"/>
+				<input name="userName" type="text" value="Usuario" class="userName" 
+				onclick, onfocus="this.value = ''; this.className='userNameOnClick'"/>
 				<br>
-				<input name="userPassword" type="password" class="userPassword"/>
+				<input name="userPassword" type="password" value="Contraseña" class="userPassword" 
+				onclick, onfocus="this.value=''; this.className='userPasswordOnClick'"/>
 				<br>
 	            <input type="checkbox" class="loginRemember"/>                 
 				<label class="loginRemember">Recuerdame</label>
