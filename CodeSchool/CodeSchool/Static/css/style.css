@@ -7,6 +7,7 @@
 .loggedTitle{
 	font-size:400%;
 	margin-left:5%;
+	display: inline;
 }
 
 .loginHr{
@@ -93,10 +94,16 @@
 	color: #FFFFFF;
 }
 
-footer{
+.loginFooter{
 	font-size: 200%;
 	text-align:center;
 	margin-top: 3%;
+}
+
+.loggedFooter{
+	font-size: 200%;
+	text-align:center;
+	margin-top: -1%;
 }
 
 a{
