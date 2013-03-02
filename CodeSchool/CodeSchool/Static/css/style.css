@@ -64,6 +64,7 @@ hr{
 
 .loginRemember{
 	margin-top: 5%;
+	margin-bottom: 5%;
 	font-size: 200%;
 }
 
@@ -79,4 +80,10 @@ hr{
 .loginButton:hover{
 	background-color: #000;
 	color: #FFFFFF;
+}
+
+footer{
+	font-size: 200%;
+	text-align:center;
+	margin-top: 3%;
 }
