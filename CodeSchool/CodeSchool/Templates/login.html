@@ -15,10 +15,10 @@
 			<form method="post">
 				{% csrf_token %}
 				<input name="userName" type="text" value="Usuario" class="userName" 
-				onclick, onfocus="this.value = ''; this.className='userNameOnClick'"/>
+				onfocus="this.value = ''; this.className='userNameOnFocus'"/>
 				<br>
 				<input name="userPassword" type="password" value="Contraseña" class="userPassword" 
-				onclick, onfocus="this.value=''; this.className='userPasswordOnClick'"/>
+				onfocus="this.value=''; this.className='userPasswordOnFocus'"/>
 				<br>
 	            <input type="checkbox" class="loginRemember"/>                 
 				<label class="loginRemember">Recuerdame</label>
@@ -27,7 +27,7 @@
 		</div>
 		<hr class="loginHr">
 		<footer class="loginFooter">
-			<p>Desarrollado por: <a href="www." target="_blank">Nuestra empresa</a> &copy; 2013</p>
+			<p>Desarrollado por: <a href="www." target="_blank" class="footerLink">Nuestra empresa</a> &copy; 2013</p>
 		<footer>
 	</body>
 </html>
