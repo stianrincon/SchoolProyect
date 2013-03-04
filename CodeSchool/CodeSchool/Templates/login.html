@@ -16,34 +16,36 @@
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 		<script src="{{STATIC_URL}}js/bootstrap.min.js"></script>
 		<div class="row-fluid">
-		  <div class="span8 offset2">
-		  	<h1 id="loginTitle">
-				Colegio Huellitas Genitales
-			</h1>
-		  </div>
-		  <div class="span8 offset2">
-		  	<form class="form-horizontal" method="post">
-				{% csrf_token %}
-			    <div class="control-group">
-					<div class="controls">
-						<input type="input" class="span5" id="inputUser" placeholder="Usuario">
+			<div class="span10 offset1">
+			  	<h1 id="loginTitle">
+					Colegio Huellitas Genitales
+				</h1>
+				<div class="row-fluid">
+			  		<div class="span10" id="formLoggin">
+					  	<form class="form-horizontal" method="post">
+							{% csrf_token %}
+						    <div class="control-group">
+								<div class="controls">
+									<input type="input" class="span4" id="inputUser" placeholder="Usuario">
+								</div>
+							</div>
+							<div class="control-group">
+								<div class="controls">
+									<input type="password" class="span4" id="inputUser" placeholder="Contraseña">
+								</div>
+							</div>
+							<div class="form-inline">
+								<div class="controls">
+									<label class="checkbox">
+										<input type="checkbox"> Recuerdame
+									</label>
+									<button type="submit" class="btn offset1">Ingresar</button>
+								</div>
+							</div>
+						</form>
 					</div>
 				</div>
-				<div class="control-group">
-					<div class="controls">
-						<input type="password" class="span5" id="inputPassword" placeholder="Contraseña">
-					</div>
-				</div>
-				<div class="form-inline">
-					<div class="controls">
-						<label class="checkbox">
-						<input type="checkbox"> Remember me
-						</label>
-						<button type="submit" class="btn">Ingresar</button>
-					</div>
-				</div>
-			</form>
-		  </div>
+			</div>
 		</div>
 	</body>
 </html>

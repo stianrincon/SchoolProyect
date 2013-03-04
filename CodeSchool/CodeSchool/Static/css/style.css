@@ -5,6 +5,10 @@
 	margin-bottom: 7%;
 }
 
+#formLoggin{
+	text-align:center;
+}
+
 #headWelcomeAdministrator{
 	float:left;
 	width:100%
