@@ -1,7 +1,8 @@
-.loginTitle{
+#loginTitle{
 	font-size:400%;
 	text-align:center;
 	margin-top:7%;
+	margin-bottom: 7%;
 }
 
 #headWelcomeAdministrator{
@@ -72,16 +73,6 @@ ul.menu li:hover > ul{
 	margin-bottom:2%;
 }
 
-.userName{
-	width: 40%;
-	height: 7%;
-	font-size: 200%;
-	border : 2px solid #000;
-	background: url(/media/user.png) no-repeat right;
-	padding-left:2%;
-	padding-right:4.5%;
-	color: #BDBDBD;
-}
 
 .userNameOnFocus{
 	width: 40%;

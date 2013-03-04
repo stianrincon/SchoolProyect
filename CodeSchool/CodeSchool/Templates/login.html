@@ -15,38 +15,35 @@
 	<body>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 		<script src="{{STATIC_URL}}js/bootstrap.min.js"></script>
-	</body>
-</html>
-<html>
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		<link rel="stylesheet" href="{{STATIC_URL}}css/style.css">
-		<title>
-			Sistema integrado de gestión de notas
-		</title>
-		</head>
-	<body>
-		<h1 class="loginTitle">
-			Colegio Huellitas Genitales
-		</h1>	
-		<hr class="loginHr">
-		<div id="formLogin">
-			<form method="post">
+		<div class="row-fluid">
+		  <div class="span8 offset2">
+		  	<h1 id="loginTitle">
+				Colegio Huellitas Genitales
+			</h1>
+		  </div>
+		  <div class="span8 offset2">
+		  	<form class="form-horizontal" method="post">
 				{% csrf_token %}
-				<input name="userName" type="text" value="Usuario" class="userName" 
-				onfocus="this.value = ''; this.className='userNameOnFocus'"/>
-				<br>
-				<input name="userPassword" type="password" value="Contraseña" class="userPassword" 
-				onfocus="this.value=''; this.className='userPasswordOnFocus'"/>
-				<br>
-	            <input type="checkbox" class="loginRemember"/>                 
-				<label class="loginRemember">Recuerdame</label>
-				<input type="submit" value="Ingresar" class="loginButton"/>
+			    <div class="control-group">
+					<div class="controls">
+						<input type="input" class="span5" id="inputUser" placeholder="Usuario">
+					</div>
+				</div>
+				<div class="control-group">
+					<div class="controls">
+						<input type="password" class="span5" id="inputPassword" placeholder="Contraseña">
+					</div>
+				</div>
+				<div class="form-inline">
+					<div class="controls">
+						<label class="checkbox">
+						<input type="checkbox"> Remember me
+						</label>
+						<button type="submit" class="btn">Ingresar</button>
+					</div>
+				</div>
 			</form>
+		  </div>
 		</div>
-		<hr class="loginHr">
-		<footer class="loginFooter">
-			<p>Desarrollado por: <a href="www." target="_blank" class="footerLink">Nuestra empresa</a> &copy; 2013</p>
-		<footer>
 	</body>
 </html>
