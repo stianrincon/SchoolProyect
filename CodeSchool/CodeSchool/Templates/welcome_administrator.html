@@ -1,26 +1,42 @@
-<html>
+<!DOCTYPE html>
+<html lang="es">
 	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		<link rel="stylesheet" href="{{STATIC_URL}}css/style.css">
+		<meta charset="utf-8">
 		<title>
-			Sistema integrado de gestión de notas
+			Sistema Integrado de Gestión de Notas
 		</title>
-		</head>
+		<!—[if lt IE 9]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]—>
+		<link href="{{STATIC_URL}}css/bootstrap.min.css" rel="stylesheet">
+		<link href="{{STATIC_URL}}css/style.css" rel="stylesheet">
+		<link href="{{STATIC_URL}}css/bootstrap-responsive.min.css" rel="stylesheet">
+	</head>
 	<body>
-		<div id="headWelcomeAdministrator">
-			<h1 class="loggedTitle">
-				Colegio Huellitas Genitales
-			</h1>
-			<ul class="menu">
-			    <li>Sebastian Rincon
-			        <ul>
-			            <li>Cambiar contraseña</li>
-			            <li>Editar perfil</li>
-			            <li>Salir</li>
-			        <ul>
-			    </li>
-			</ul>
-		</div>	
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script src="{{STATIC_URL}}js/bootstrap.min.js"></script>
+		
+		
+		<div class="navbar navbar-fixed-top">  
+  		<div class="navbar-inner">
+			<div class="container">
+			 	<a class="brand">Colegio Huellitas Genitales</a>
+			
+				<div class="btn-group pull-right">
+					<a class="btn btn-primary" href="#"><i class="icon-user icon-white"></i> Usuario</a>
+					<a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#"><span class="caret"></span></a>
+			
+					<ul class="dropdown-menu">
+						<li><a href="#"><i class="icon-cog"></i> Editar perfil</a></li>
+						<li><a href="#"><i class="icon-pencil"></i> Cambiar contraseña</a></li>
+						<li class="divider"></li>
+						<li><a href="#"><i class="i"></i> Salir</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		</div>		
+		
 		<hr class="loggedHr">
 		<div div id="columnContainer">
 			<div id="firstColumn">
